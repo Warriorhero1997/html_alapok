@@ -1,0 +1,32 @@
+
+  .fo-menu {
+       height: 80px;
+  background-color: aqua;
+}
+    
+.menupont {
+    height: 40px;
+    /* körbe mindenhol 10px a margin */
+    /* margin: 10px;*/
+    
+    /*a következő három sort röviditveis lehet irni*/
+    /*margin-left: 10px;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    
+    /*az első három sor röviditve igy néz ki*/
+    margin: 10px 0 10px 10px /* fölul, jobra,alul, balra */
+    
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    
+    
+    /*padding-top: 22px; */
+   /* padding-left: 10px; */
+  /* padding-right: 10px; */
+    /*padding-bottom: 0px; */
+    
+     /*az első három sor röviditve igy néz ki*/
+    padding: 22px 10px 0 10px; /* fölul, jobra,alul, balra */
+}
